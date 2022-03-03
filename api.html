@@ -22,7 +22,7 @@
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script>
-    link = "https://api.openweathermap.org/data/2.5/weather?q=delhi&appid=afcc4c79a8edfd10e3e316b09c7c7271";
+    link = "https://api.openweathermap.org/data/2.5/weather?q={city}&appid={Your Api Key}";
     var request = new XMLHttpRequest();
     request.open('GET',link,true);
     request.onload = function(){
